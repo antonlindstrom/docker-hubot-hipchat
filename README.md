@@ -1,6 +1,6 @@
-# Hubot on Docker with Hipchat adapter
+# Dockerized Hubot in Hipchat
 
-An experiment with docker and hubot with hipchat.
+An experiment with hubot with the hipchat adapter on Docker.
 
 The Docker container contains both Hubot as well as Redis.
 
