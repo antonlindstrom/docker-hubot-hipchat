@@ -15,7 +15,10 @@ The Docker container contains both Hubot as well as Redis.
 
 Another example of running the bot is:
 
-    docker run -e HUBOT_HIPCHAT_JID=jid -e HUBOT_HIPCHAT_PASSWORD=secret -e HUBOT_AUTH_ADMIN=admin  -d my-hubot
+    docker run -e HUBOT_HIPCHAT_JID=jid \
+      -e HUBOT_HIPCHAT_PASSWORD=secret \
+      -e HUBOT_AUTH_ADMIN=admin \
+      -d my-hubot
 
 ## Resources
 
